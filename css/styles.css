@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #204051;
+  margin: 0 auto;
+  font-family: 'Merriweather', serif;
+}
+
+h3 {
+  color: #3b6978;
+}
+
+/* *****************************CLASS SELECTOR***************************** */
+.circular-profile {
+  border-radius: 100%;
+  display: block;
+  margin: 20px auto;
+}
+
+.circular:hover {
+  border-radius: 0;
+}
+
+.top-container {
+  background-color: #ebfffa;
+  position: relative;
+  padding-top: 100px;
+  margin: 0;
+}
+
+.middle-container {}
+
+.bottom-container {}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+/* *****************************ID SELECTOR***************************** */
