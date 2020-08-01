@@ -76,10 +76,14 @@ hr {
 
 .design-dev-desc {
   clear: right;
+  font-size: 175%;
+  font-weight: 500;
 }
 
 .resume-desc {
   clear: left;
+  font-size: 175%;
+  font-weight: 500;
 }
 
 .resume-link {
