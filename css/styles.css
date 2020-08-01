@@ -6,7 +6,7 @@ body {
 h1 {
   color: #204051;
   margin: 0 auto;
-  font-family: 'Merriweather', serif;
+  font-family: 'Satisfy', cursive;
   font-size: 562.5%;
   /* or 5.625rem --> 1rem = 16px*/
 }
@@ -37,20 +37,30 @@ hr {
 
 /* *****************************CLASS SELECTOR***************************** */
 .circular-profile {
-  border-radius: 100%;
+  border-radius: 50%;
   display: block;
   margin: 20px auto;
-}
-
-.circular:hover {
-  border-radius: 0;
+  width: 30%;
+  height: 30%;
 }
 
 .top-container {
-  background-color: #ebfffa;
+  background-color: #e0ebe8;
   position: relative;
   padding-top: 100px;
   margin: 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
 }
 
 .middle-container {
@@ -117,20 +127,8 @@ hr {
   margin: 50px auto 0 auto;
 }
 
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 50px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 300px;
-  bottom: 300px;
-}
-
 .intro-text {
-  padding-top: 50px;
+  padding: 50px 0;
 }
 
 .programmer-picture {
