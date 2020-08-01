@@ -14,18 +14,19 @@ h1 {
 h2 {
   color: #204051;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 250%;
+  font-size: 380%;
 }
 
 h3 {
   color: #3b6978;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 200%%;
+  font-size: 200%;
 }
 
 p {
   font-family: 'EB Garamond', serif;
-  
+  font-size: 150%;
+
 }
 
 /* *****************************CLASS SELECTOR***************************** */
