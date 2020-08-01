@@ -87,19 +87,18 @@ hr {
 }
 
 .resume-link {
-  outline: none;
   text-decoration: none;
-  padding: 2px 1px 0;
+  padding: 5px 0;
+  border-bottom: 2px solid #0972b4;
+  color: #0972b4;
+  text-shadow: none;
 }
 
-.resume-link :focus {
-  border-bottom: 1px solid;
-  background: #BAE498;
-}
-
-.resume-link :hover {
-  border-bottom: 1px solid;
-  background: #CDFEAA;
+.resume-link:hover {
+  border-bottom: 2px solid #ff9800;
+  color: #ff9800;
+  transition: max-width 0.5s;
+  max-width: 100%;
 }
 
 .bottom-container {
