@@ -26,7 +26,13 @@ h3 {
 p {
   font-family: 'EB Garamond', serif;
   font-size: 150%;
+}
 
+hr {
+  border: 10px dotted #EAF6F6;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
 
 /* *****************************CLASS SELECTOR***************************** */
@@ -52,7 +58,61 @@ p {
   margin: 0;
 }
 
-.bottom-container {}
+.profile {
+  width: 50%;
+  margin: 0 auto 100px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 150px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me {
+  margin: 150px auto;
+}
+
+.design-dev-desc {
+  clear: right;
+}
+
+.resume-desc {
+  clear: left;
+}
+
+.resume-link {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+.resume-link :focus {
+  border-bottom: 1px solid;
+  background: #BAE498;
+}
+
+.resume-link :hover {
+  border-bottom: 1px solid;
+  background: #CDFEAA;
+}
+
+.bottom-container {
+  position: relative;
+  background-color: #66BFBF;
+  margin-bottom: 0;
+  padding: 50px 0;
+}
+
+.footer-link {
+  margin: 10px 20px;
+  font-size: 200%;
+}
+
+.copyright {
+  margin: 50px auto 0 auto;
+}
 
 .top-cloud {
   position: absolute;
@@ -72,14 +132,18 @@ p {
 
 .programmer-picture {
   border-radius: 50%;
-  width: 15%;
-  height: 15%;
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 75px;
 }
 
 .resume {
   border-radius: 50%;
-  width: 15%;
-  height: 15%;
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin: 0 0 75px 75px;
 }
 
 /* *****************************ID SELECTOR***************************** */
