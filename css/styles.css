@@ -39,14 +39,14 @@ hr {
 .circular-profile {
   border-radius: 50%;
   display: block;
-  margin: 20px auto;
+  margin: 1.25rem auto;
   width: 30%;
   height: 30%;
 }
 .profile-picture {
   border-radius: 90%;
   display: block;
-  margin: 20px auto;
+  margin: 1.25rem auto;
   width: 60%;
   height: 10%;
 }
@@ -54,20 +54,20 @@ hr {
 .top-container {
   background-color: #e0ebe8;
   position: relative;
-  padding-top: 100px;
+  padding-top: 6.25rem;
   margin: 0;
 }
 
 .top-cloud {
   position: absolute;
-  right: 300px;
-  top: 50px;
+  right: 18.75rem;
+  top: 3.125rem;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
-  bottom: 300px;
+  left: 18.75rem;
+  bottom: 18.75rem;
 }
 
 .middle-container {
@@ -77,18 +77,18 @@ hr {
 
 .profile {
   width: 50%;
-  margin: 0 auto 100px auto;
+  margin: 0 auto 6.25rem auto;
 }
 
 .skill-row {
   width: 50%;
-  margin: 150px auto;
+  margin: 9.375rem auto;
   text-align: left;
   line-height: 2;
 }
 
 .contact-me {
-  margin: 150px auto;
+  margin: 9.375rem auto;
 }
 
 .design-dev-desc {
@@ -103,14 +103,14 @@ hr {
 
 .resume-link {
   text-decoration: none;
-  padding: 5px 0;
-  border-bottom: 2px solid #0972b4;
+  padding: 0.3125rem 0;
+  border-bottom: 0.125 solid #0972b4;
   color: #0972b4;
   text-shadow: none;
 }
 
 .resume-link:hover {
-  border-bottom: 2px solid #ff9800;
+  border-bottom: 0.125rem solid #ff9800;
   color: #ff9800;
   transition: max-width 0.5s;
   max-width: 100%;
@@ -130,27 +130,13 @@ hr {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 0.625em 0.875rem;
   text-decoration: none;
-  font-size: 17px;
 }
 
 .navbar a:hover {
   background: #ddd;
   color: black;
-}
-
-.footer-link {
-  margin: 10px 20px;
-  font-size: 200%;
-}
-
-.copyright {
-  margin: auto;
-}
-
-.intro-text {
-  padding: 50px 0;
 }
 
 .programmer-picture {
